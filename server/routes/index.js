@@ -159,7 +159,7 @@ router.delete('/api/v1/todos/:todoId', (req, res) => {
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.sendFile('index.html');
+  res.sendFile(path.join(__dirname, '..', '..', 'client', 'views' ,'index.html'));
 });
 
 function fetchAllFrom(client, table) {
