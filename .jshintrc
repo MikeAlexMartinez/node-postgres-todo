@@ -69,6 +69,8 @@
   // Suppress warnings about == null comparisons.
   "eqnull": true,
 
+  "predef": ["angular"],
+
   /*
    * MOCHA
    * =================
